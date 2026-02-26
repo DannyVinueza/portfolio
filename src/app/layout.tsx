@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Danny Vinueza | Full Stack Developer",
-  description: "Construyo aplicaciones web robustas y APIs escalables con arquitectura en la nube (AWS). Enfocado en optimizar rendimiento y escalabilidad de sistemas mediante Clean Code y soluciones Fullstack.",
+  description: "I build robust web applications and scalable APIs with cloud-based architecture (AWS). Focused on optimizing system performance and scalability through Clean Code practices and Full Stack solutions.",
   keywords: ["Danny Vinueza", "Full Stack Developer", "Software Engineer", "Remote Developer", "React", "Node.js", ".NET", "AWS", "Freelance Developer", "Desarrollador Backend"],
 };
 
