@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <style>
+      .bg { fill: #000000; }
+      .green-stroke { fill: none; stroke: #4ade80; stroke-width: 28; stroke-linecap: round; stroke-linejoin: round; }
+      .green-cloud { fill: #1f2937; stroke: #4ade80; stroke-width: 14; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  
+  <rect width="512" height="512" rx="112" ry="112" class="bg" />
+
+  <g transform="translate(68, 140)">
+    <rect x="0" y="0" width="376" height="264" rx="32" ry="32" class="green-stroke" />
+    <line x1="0" y1="72" x2="376" y2="72" class="green-stroke" />
+  </g>
+
+  <g transform="translate(180, 160) scale(1.8)">
+    <!-- Base outline to obscure the window green line perfectly, extra thick black stroke -->
+    <path d="M 40 150 A 30 30 0 0 1 40 90 A 50 50 0 0 1 120 90 A 30 30 0 0 1 120 150 Z" stroke="#000000" stroke-width="32" stroke-linejoin="round" />
+    <!-- Actual dark blue/gray cloud with green contour -->
+    <path d="M 40 150 A 30 30 0 0 1 40 90 A 50 50 0 0 1 120 90 A 30 30 0 0 1 120 150 Z" class="green-cloud" />
+  </g>
+</svg>
